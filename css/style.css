@@ -1,0 +1,122 @@
+.title {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Special Elite', cursive;
+}
+.Onpage {
+  font-family: 'Special Elite', cursive;
+  color: #F2ED6F;
+  text-decoration: none;
+  font-size: 60px;
+}
+.menu {
+  font-family: 'Satisfy', cursive;
+  color: #BCA3AC;
+  text-decoration: none;
+  font-size: 45px;
+}
+nav {
+  display: flex;
+  float: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row;
+  width: 100%;
+  height: 150px;
+  background-color: #37515F;
+  margin-bottom: 80px;
+}
+li {
+   list-style-type: none;
+ }
+p{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: justify;
+}
+.noUnder {
+  text-decoration: none;
+  font-size: 80px;
+  color: #830A48;
+  font-weight: bold;
+}
+a {
+  font-size: 25px;
+}
+img {
+  border-radius: 50%;
+  margin: 30px;
+  margin-right: 60px;
+}
+.main{
+  display: flex;
+  float: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: row;
+  width: 100%;
+  height: 300px;
+}
+body {
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  /* background-color: #BCD8C1; */
+}
+.content {
+  min-height: calc(100vh - 70px);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #BCA3AC;
+  background-color: #25A18E;
+  height: 70px;
+  color: #F4E04D;
+  padding: 10px;
+}
+.contactpage {
+  box-sizing: border-box;
+}
+.formField {
+  /* background-color: RGBA(188,163,172,0.71);
+  padding: 20px;*/
+  margin: 0px 300px 14px 300px;
+  width: 60em;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  /* margin-top: 6px; */
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+  color: #830A48;
+  text-transform: capitalize;
+  margin-top: 15px;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 5px;
+  font-size: 20px;
+  border-color: #37515F;
+  border-radius: 10px;
+  font-size: 30px;
+}
+button[type=submit] {
+  background-color: #830A48;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  float: right;
+}
